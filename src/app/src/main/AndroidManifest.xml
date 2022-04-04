@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huawei.mediscalhealth">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.huawei.hms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.huawei.mediscalhealth.EntryChoiceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.huawei.mediscalhealth.kotlin.weather.AQIValuesActivity" />
+        <activity android:name="com.huawei.mediscalhealth.kotlin.ui.FallDetectionCalibrationActivity" />
+        <activity
+            android:name="com.huawei.mediscalhealth.kotlin.ui.bmi.ResultScreenBMIActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.huawei.mediscalhealth.kotlin.ui.bmi.BMIActivity" />
+        <activity android:name="com.huawei.mediscalhealth.kotlin.weather.WeatherActivity" />
+        <activity android:name="com.huawei.mediscalhealth.kotlin.ui.NearestHospitalActivity" />
+        <activity android:name="com.huawei.mediscalhealth.kotlin.ui.ActivityIdentificationActivity" />
+        <activity android:name="com.huawei.mediscalhealth.kotlin.ui.FoodDetectionActivity" />
+        <activity android:name="com.huawei.mediscalhealth.kotlin.ui.SOSActivity" />
+        <activity android:name="com.huawei.mediscalhealth.kotlin.ui.RegisterLocationActivity" />
+        <activity android:name="com.huawei.mediscalhealth.kotlin.ui.RegisterSuccessPromptActivity" />
+        <activity android:name="com.huawei.mediscalhealth.kotlin.ui.RegisterPhoneActivity" />
+        <activity
+            android:name="com.huawei.mediscalhealth.kotlin.ui.FallDetectionActivity"
+            android:noHistory="true" />
+        <activity android:name="com.huawei.mediscalhealth.kotlin.ui.EditContactActivity" />
+        <activity android:name="com.huawei.mediscalhealth.kotlin.MainActivity" />
+
+        <receiver
+            android:name="com.huawei.mediscalhealth.kotlin.utils.broadcasts.ActivityIdentityBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name=".LocationBroadcastReceiver.ACTION_PROCESS_LOCATION" />
+            </intent-filter>
+        </receiver>
+
+        <!--java packages-->
+
+        <activity android:name="com.huawei.mediscalhealth.java.weather.AQIValuesActivity" />
+        <activity android:name="com.huawei.mediscalhealth.java.ui.FallDetectionCalibrationActivity" />
+        <activity
+            android:name="com.huawei.mediscalhealth.java.ui.bmi.ResultScreenBMIActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.huawei.mediscalhealth.java.ui.bmi.BMIActivity" />
+        <activity android:name="com.huawei.mediscalhealth.java.weather.WeatherActivity" />
+        <activity android:name="com.huawei.mediscalhealth.java.ui.NearestHospitalActivity" />
+        <activity android:name="com.huawei.mediscalhealth.java.ui.ActivityIdentificationActivity" />
+        <activity android:name="com.huawei.mediscalhealth.java.ui.FoodDetectionActivity" />
+        <activity android:name="com.huawei.mediscalhealth.java.ui.SOSActivity" />
+        <activity android:name="com.huawei.mediscalhealth.java.ui.RegisterLocationActivity" />
+        <activity android:name="com.huawei.mediscalhealth.java.ui.RegisterSuccessPromptActivity" />
+        <activity android:name="com.huawei.mediscalhealth.java.ui.RegisterPhoneActivity" />
+        <activity
+            android:name="com.huawei.mediscalhealth.java.ui.FallDetectionActivity"
+            android:noHistory="true" />
+        <activity android:name="com.huawei.mediscalhealth.java.ui.EditContactActivity" />
+        <activity android:name="com.huawei.mediscalhealth.java.MainActivity" />
+
+        <receiver
+            android:name="com.huawei.mediscalhealth.java.utils.broadcasts.ActivityIdentityBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name=".LocationBroadcastReceiver.ACTION_PROCESS_LOCATION" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value="103344071" />
+    </application>
+
+</manifest>

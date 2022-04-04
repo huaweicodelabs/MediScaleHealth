@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <!-- app_id -->
+    <string name="APP_ID" translatable="false">APP_ID</string>
+    <!--app api key -->
+    <string name="API_KEY" translatable="false">API_KEY</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.huawei.mediscalhealth</string>
+    <!-- Key to obtain Air quality index values -->
+    <string name="AQI_VALUES_API_KEY">oOtCQTXMdd9hIZM0KFTJL4dAdlWge5aW2PP76q7E</string>
+    <!-- Key to obtain weather data -->
+    <string name="WEATHER_API_KEY" translatable="false">cbaa2b59fa5906a27aeecd78eb30aa5d</string>
+    <!-- Key to show map to the user -->
+    <string name="MAP_API_KEY">cbaa2b59fa5906a27aeecd78eb30aa5d</string>
+
+
+
+</resources>

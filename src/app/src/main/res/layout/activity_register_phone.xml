@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kotlin.ui.RegisterPhoneActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_background"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.3"
+            android:text="Primary contact number"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/activity_register_et_primary_contact_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.7"
+            android:background="@drawable/rounded_edittext"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:onClick="eventClickPrimaryContact"
+            android:padding="10dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_background"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.3"
+            android:text="Secondary contact number"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/activity_register_et_secondary_contact_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.7"
+            android:background="@drawable/rounded_edittext"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:onClick="eventClickSecondaryContact"
+            android:padding="10dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.3"
+            android:text="Primary contact name"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/activity_register_et_primary_contact_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.7"
+            android:background="@drawable/gradient_background"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text=""
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.3"
+            android:text="Secondary contact name"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/activity_register_et_secondary_contact_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.7"
+            android:background="@drawable/gradient_background"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:gravity="center"
+
+            android:padding="10dp"
+            android:text=""
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lav_recognition"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="50dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="registercontacts.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/googlesans_medium"
+        android:padding="8dp"
+        android:text="Mediscale will inform your primary and secondary contact when you have a fall"
+        android:gravity="center"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/activity_register_bttn_secondary_contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="80dp"
+        android:onClick="clickEventConfirmDetails"
+        android:background="@drawable/gradient_background"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:padding="10dp"
+        android:text="Next"
+        android:textColor="@color/white" />
+
+</LinearLayout>

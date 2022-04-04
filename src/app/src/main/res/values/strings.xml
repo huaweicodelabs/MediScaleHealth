@@ -1,0 +1,136 @@
+
+
+<resources>
+    <string name="app_name">Mediscale Health</string>
+
+    <string name="title_activity_add_pill">AddPill</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="action">action</string>
+    <string name="set_phone_name_warning">You should set phone number.</string>
+    <string name="ok">Ok</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_steps_count">StepsCount</string>
+    <string name="title_activity_change_contact_info">ChangeContactInfoActivity</string>
+
+    <string name="weight_metric">Weight in kg</string>
+    <string name="height_metric">Height in m</string>
+    <string name="weight_imperial">Weight in pounds</string>
+    <string name="height_imperial">Height in inch</string>
+    <string name="more_information">More information on Wikipedia</string>
+    <string name="wikipedia_bmi_link">PROVIDE_YOUR_BMI_LINK</string>
+    <string name="bmi_result">BMI: %s</string>
+    <string name="bmi_cat_1">Very severely underweight</string>
+    <string name="bmi_cat_2">Severely underweight</string>
+    <string name="bmi_cat_3">Underweight</string>
+    <string name="bmi_cat_4">Normal (healthy weight)</string>
+    <string name="bmi_cat_5">Overweight</string>
+    <string name="bmi_cat_6">Obese Class I (Moderately obese)</string>
+    <string name="bmi_cat_7">Obese Class II (Severely obese)</string>
+    <string name="bmi_cat_8">Obese Class III (Very severely obese)</string>
+    <string name="bmi_cat_9">Obese Class IV (Morbidly Obese)</string>
+    <string name="bmi_cat_10">Obese Class V (Super Obese)</string>
+    <string name="bmi_cat_11">Obese Class VI (Hyper Obese)</string>
+    <string name="imperial">Imperial</string>
+    <string name="metric">Metric</string>
+    <string name="default_unit">@string/metric</string>
+    <string name="hazard_values">Good AQI is 0 to 50. Air quality is considered satisfactory, and air pollution poses little or no risk.\n\n Moderate AQI is 51 to 100. Air quality is acceptable; however, for some pollutants there may be a moderate health concern\n\nUnhealthy for Sensitive Groups AQI is 101 to 150. Although general public is not likely to be affected at this AQI range\n\nVery Unhealthy AQI is 201 to 300. This would trigger a health alert\n\nHazardous AQI greater than 300. This would trigger a health warnings of emergency conditions.</string>
+    <string name="AQI_values">Good AQI is 0 to 50. Air quality is considered satisfactory, and air pollution poses little or no risk. Moderate AQI is 51 to 100. Air quality is acceptable; however, for some pollutants there may be a moderate health concern\n\nUnhealthy for Sensitive Groups AQI is 101 to 150. Although general public is not likely to be affected at this AQI range\n\nVery Unhealthy AQI is 201 to 300. This would trigger a health alert\n\nHazardous AQI greater than 300. This would trigger a health warnings of emergency conditions.</string>
+    <string name="BMI_20">BMI: 20</string>
+    <string name="Normal_healthy_weight">Normal (healthy weight)</string>
+    <string name="check_bmi">Check BMI</string>
+    <string name="SOS">SOS</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="mediscal_is_tracking_your_movements">Mediscale is tracking your movements</string>
+    <string name="steps">Steps</string>
+    <string name="proceed">proceed</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="high">High</string>
+    <string name="hospital_in_radius">Hospital in radius</string>
+    <string name="_10_kms">10 Kms</string>
+    <string name="get_location_coordinates">Get Location coordinates</string>
+    <string name="secondary_contact_number">Secondary contact number</string>
+    <string name="primary_contact_name">Primary contact name</string>
+
+    <string name="exception_str_json">JSONException</string>
+    <string name="exception_str_server">ServerError</string>
+    <string name="exception_str_authfail">AuthFailureError</string>
+    <string name="exception_str_parse">ParseError</string>
+    <string name="exception_str_no_connection">NoConnectionError</string>
+    <string name="exception_str_network">NetworkError</string>
+    <string name="exception_str_timeout">TimeoutError</string>
+    <string name="exception_str_exception">Exception</string>
+    <string name="exception_str_io">IOException</string>
+    <string name="exception_str_image_capture">ImageCaptureException</string>
+    <string name="exception_str_unsupported_encoding">UnsupportedEncodingException</string>
+
+
+    <string name="server_maintenance">Server is under maintenance.Please try later.</string>
+    <string name="air_quality_good">Air Quality is Good For Walking.</string>
+    <string name="air_lightly_polluted">Air Quality is Lightly Polluted For Walking</string>
+    <string name="air_quality_bad">Air Quality is BAD For Walking</string>
+    <string name="you_are_underweight">You have an UnderWeight!</string>
+    <string name="advice_to_increase_weight">Here are some advices To help you increase your weight</string>
+    <string name="dont_drink_water_before_meal">Don\'t drink water before meals</string>
+    <string name="use_bigger_plates">Use bigger plates</string>
+    <string name="get_quality_sleep">Get quality sleep</string>
+    <string name="overweight">You have an OverWeight!</string>
+    <string name="advice_to_decrease_weight">Here are some advices To help you decrease your weight</string>
+    <string name="drink_water_half_hour_before">Drink water a half hour before meals</string>
+    <string name="eat_only_two_meals">Eat only two meals per day and make sure that they contains a high protein</string>
+    <string name="drink_coffee_or_tea">Drink coffee or tea and Avoid sugary food</string>
+    <string name="detection_failed">Detection Failed</string>
+
+    <string name="bike">BIKE</string>
+    <string name="vehicle">VEHICLE</string>
+    <string name="createActivityIdentificationUpdates_onSuccess">createActivityIdentificationUpdates onSuccess:</string>
+    <string name="createActivityIdentificationUpdates_onFailure">createActivityIdentificationUpdates onFailure:</string>
+    <string name="createActivityIdentificationUpdates_exception">createActivityIdentificationUpdates onException:</string>
+    <string name="start_to_removeActivityUpdates">start to removeActivityUpdates</string>
+    <string name="deleteActivityIdentificationUpdates_onSuccess">deleteActivityIdentificationUpdates onSuccess:</string>
+    <string name="deleteActivityIdentificationUpdates_onFailure">deleteActivityIdentificationUpdates onFailure:</string>
+    <string name="removeActivityUpdates_exception">removeActivityUpdates exception: </string>
+    <string name="identified_activity">Identified Activity : </string>
+    <string name="activity_recognition_result">activityRecognitionResult:: </string>
+    <string name="low_intesity">Low Intensity can be used, if you maintain an active lifestyle with activities like Jogging and cycling</string>
+    <string name="medium_intensity">Medium Intensity can be used, if you maintain a normal lifestyle with activities like Brisk walking and jogging</string>
+    <string name="high_intensity">High intensity can be used if you suffer from poor cardiac health</string>
+    <string name="select_intensity_level">Please select level of intensity to proceed</string>
+    <string name="permission_not_granted">Permissions not granted by the user.</string>
+    <string name="not_food">NOT FOOD</string>
+    <string name="no_near_hospital">No Nearest Hospital Found</string>
+    <string name="on_location_result">onLocationResult location[Longitude,Latitude,Accuracy]:</string>
+    <string name="check_location_setting_success">check location settings success</string>
+    <string name="on_location_availability_is_location_available">onLocationAvailability isLocationAvailable:</string>
+    <string name="request_loaction_update_with_success_callback">requestLocationUpdatesWithCallback onSuccess</string>
+    <string name="request_loaction_update_with_failure_callback">requestLocationUpdatesWithCallback onFailure:</string>
+    <string name="request_loaction_update_exception_callback">requestLocationUpdatesWithCallback exception:</string>
+    <string name="check_location_setting_failure">checkLocationSetting onFailure:</string>
+    <string name="on_request_permission_result_location_successful">onRequestPermissionsResult: apply LOCATION PERMISSION successful</string>
+    <string name="on_request_permission_result_location_failed">onRequestPermissionsResult: apply LOCATION PERMISSION  failed</string>
+    <string name="on_request_permission_result_background_location_successful">onRequestPermissionsResult: apply ACCESS_BACKGROUND_LOCATION successful</string>
+    <string name="on_request_permission_result_background_location_failed">onRequestPermissionsResult: apply ACCESS_BACKGROUND_LOCATION  failed</string>
+
+    <string name="emergency_message">I fell. Please help me.</string>
+    <string name="default_content">default content</string>
+    <string name="left_time">Left time :</string>
+    <string name="fall_detection">Fall Detected</string>
+    <string name="error_primary_contact">Please choose a primary contact</string>
+    <string name="error_primary_contact_number">Please choose a primary contact no</string>
+    <string name="error_contact_name">Please choose a contact name</string>
+    <string name="error_secondary_contact_number">Please enter a secondary contact number</string>
+    <string name="weather_is">Weather is</string>
+    <string name="java">java</string>
+    <string name="kotlin">kotlin</string>
+
+
+</resources>
